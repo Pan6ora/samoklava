@@ -28,8 +28,8 @@ points:
           shift: [0, -5]
   zones:
     matrix:
-      # anchor:
-      #   rotate: 5
+      anchor:
+        rotate: 24
       key.padding: ky
       columns:
         pinky:
@@ -39,15 +39,19 @@ points:
             column_net: P20
         ring:
           origin: [-12, -12]
+          rotate: -10
           stagger: 17
           key:
             column_net: P19
         middle:
+          rotate: -8
           stagger: 8
+          spread: 21
           key:
             column_net: P18
         index:
           stagger: -15
+          rotate: -6
           key:
             column_net: P15
         inner:
